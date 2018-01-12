@@ -33,6 +33,6 @@ public class Login extends AppCompatActivity {
         SQLiteDatabase db=con.getWritableDatabase();
         String  q="select * from employee";
         c=db.rawQuery(q,null);
-      
+
     }
 }
