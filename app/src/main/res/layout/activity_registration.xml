@@ -1,0 +1,57 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:background="#ab2941"
+        android:textColor="#ffffff"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Nmae Here..."
+        android:id="@+id/etname"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Department Here..."
+        android:id="@+id/etdepartment"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etcontectno"
+        android:hint="Enter Contect No Here"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Id Here..."
+        android:id="@+id/etemail"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Joining Here..."
+        android:id="@+id/etdate"
+        android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="21dp"
+            android:background="#ab2941"
+            android:textColor="#ffffff"
+            android:onClick="Register"
+            />
+</LinearLayout>
